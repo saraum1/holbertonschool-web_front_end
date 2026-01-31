@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 [data-section-theme="dark"] {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
-  background: var(--color-black);
+  background-color: var(--color-black);
 }
 
 .section-header {
@@ -204,7 +204,6 @@ ul.row {
   text-align: right;
 }
 
-/* Fixes for dark theme components */
 .footer-address {
   color: var(--text-color);
 }
