@@ -1,4 +1,4 @@
-/* Pseudo-classes for links */
+/* Pseudo-classes for links with specific order */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -37,6 +37,7 @@ body {
   line-height: var(--line-height-base);
 }
 
+/* Specific requirements for anchor elements */
 a[href] {
   color: var(--text-color);
   text-decoration: none;
